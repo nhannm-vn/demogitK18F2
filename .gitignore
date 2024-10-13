@@ -1,0 +1,13 @@
+# những file mà chúng ta không muốn nó nằm trong tầm giám sát của git
+# những cái tool mình không muốn đưa lên
+# hoặc những cái file mà không muốn đưa lên
+
+# Comment
+# nếu có thư mục là node_modules thì sẽ không lấy
+node_modules/
+# nếu có cái file có đuôi là .logs thì cũng không lấy
+.logs
+# này sẽ là file lưu password hoặc những cái biến môi trường
+.env
+
+
